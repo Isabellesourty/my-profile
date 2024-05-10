@@ -1,0 +1,76 @@
+/* Colors and fonts */
+body {
+	background-color:mistyrose;
+	color: blanchedalmond;
+	font-family: Courier;
+}
+
+h1, h2, h3 {font-family: Courier;}
+
+h1{
+	color:black;
+	font-size: 40px;
+ }
+
+ h2{
+ 	color:darkolivegreen;
+ 	font-size: 24px;
+ 	font-weight: lighter;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: paleturquoise;
+ }
+a:hover {
+	color: yellow;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: rosybrown;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align:center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: floralwhite;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: paleturquoise;
+	color: yellow;
+}
+
+.list-inline {
+	list-style: none;
+	padding:10px;
+}
+
+
+.list-inline li{
+	font-size: 50px;
+	color: mistyrose;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
